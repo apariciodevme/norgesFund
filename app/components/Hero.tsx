@@ -48,9 +48,9 @@ const Hero = () => {
 
                 
                     <button
-                    className='flex mt-96 items-center font-light p-3 px-6 gap-1 rounded-full backdrop-blur-md bg-white/10 border text-slate-600 border-white/20 shadow-md hover:bg-white/30 transition-all cursor-pointer duration-300 text-lg' 
+                    className='flex mt-96 items-center font-light p-3 group relative px-6 gap-1 rounded-full backdrop-blur-md bg-white/10 border text-slate-600 border-white/20 shadow-md hover:bg-white/30 transition-all cursor-pointer duration-300 text-lg' 
                     >Value development
-                    <IconArrowNarrowRight className='w-5 h-5 text-slate-600'/>
+                    <IconArrowNarrowRight className='w-5 h-5 text-slate-600 transition-transform duration-300 group-hover:translate-x-2'/>
                     </button>
                 
 
